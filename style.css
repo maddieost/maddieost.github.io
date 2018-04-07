@@ -1,0 +1,149 @@
+html, body {
+	margin: 0;
+	font-family: 'pacifco';
+	text-align: center;
+	background-color:thistle;
+
+}
+
+p {
+	color:black;
+}
+
+h1 {
+	color:white;
+}
+
+img {
+	border-radius: 25px;
+	max-width: 100%;
+}
+h3 {
+	color:black;
+}
+
+.brown {
+	/*TODO: Change the color of text to brown*/
+	color:black;
+
+}
+
+#page-wrapper {
+	padding: 0 10% 0 10%;
+}
+
+#page-wrapper > * {
+	padding: 50px;
+	margin: auto;
+	height: auto;
+}
+
+
+#blue {
+	/*TODO: Change the background color to blue*/
+background-color:thistle;
+
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:gray;
+	min-width:160px;
+
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+
+}
+
+.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration: none;
+	display:block;
+}
+
+.dropdown {
+	position: realative;
+	display: inline-block;
+}
+
+.dropbtn {
+	border:none;
+	padding: 16px;
+	font-size: 16px;
+	background-color: thistle;
+	color:white;
+}
+
+
+@keyframes marble {
+	0% {background-color:black;}
+		14% {background-color:darkgrey;}
+			28% {background-color:grey;}
+			28% {background-color:lightgray;}
+			42% {background-color:white;}
+			56% {background-color:thistle;}
+
+			@keyframes change{
+				0%{transform:translateX(-100px);}
+				50%{transform: translate(100px);}
+			}
+p1{
+	color:white;
+	animation-name: change;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+}
+#blue {
+	animation-name: marble;
+	animation-duration:30s;
+}
+
+
+#doubleyellow {
+	display: inline-block;
+	/*TODO: Change the background color to yellow*/
+	background-color:thistle;
+}
+
+#doubleyellow > img  {
+	width: 45%;
+	margin: 0 20px 0 20px;
+}
+
+#green {
+	/*TODO: Change the backgrond color to green*/
+	background-color:thistle;
+}
+
+#yellow {
+	/*TODO: Change the background color to yellow*/
+	background-color:thistle;
+}
+
+#white {
+	/*TODO: Change the background color to white*/
+	background-color:thistle;
+}
+
+#white > img {
+	width: 30.3%;
+}
+
+#content_holder {
+	display: inline-block;
+	/*TODO:; change the background color to green*/
+	background-color:thistle;
+}
+
+.content {
+	width: 44.5%;
+	float: left;
+	margin: 2%;
+	border: 1px dashed orange;
+	padding: 5px;
+	background-color: #f0f0f0;
+}
